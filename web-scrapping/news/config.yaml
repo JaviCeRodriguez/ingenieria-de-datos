@@ -1,0 +1,15 @@
+news_sites:
+  infobae:
+    url: https://www.infobae.com
+    queries:
+      homepage_article_links: '.cst_ctn'
+      article_body: '.nd-body-article'
+      article_title: '.article-headline'
+      article_subtitle: '.article-subheadline'
+  tn:
+    url: https://tn.com.ar
+    queries:
+      homepage_article_links: '.card__headline a'
+      article_body: '.article__body'
+      article_title: '.article__title'
+      article_subtitle: ''
